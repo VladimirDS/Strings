@@ -1,0 +1,18 @@
+// Vvod.cpp: Работа со строкой
+
+#include "stdafx.h"
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main()
+{	
+	string name, surname;
+	cin >> name >> surname;
+	cout << "Hello, " << name << " " << surname;
+
+	getchar();
+	getchar();
+	return 0;
+}
